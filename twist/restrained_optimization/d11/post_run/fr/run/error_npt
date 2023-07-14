@@ -1,0 +1,44 @@
+                       :-) GROMACS - gmx mdrun, 2022 (-:
+
+Executable:   /cineca/prod/opt/applications/gromacs/2022/spectrum_mpi--10.4.0--binary/bin/gmx_thread_mpi
+Data prefix:  /cineca/prod/opt/applications/gromacs/2022/spectrum_mpi--10.4.0--binary
+Working dir:  /m100_work/AIRC_Fortun21/barletta/twist/restrained_optimization/d11/post_run/fr/run
+Command line:
+  gmx_thread_mpi mdrun -ntomp 8 -ntmpi 1 -nb gpu -pme gpu -bonded gpu -deffnm npt_d11 -pin on -pinoffset 8 -gpu_id 0 -cpi npt_d11
+
+Reading file npt_d11.tpr, VERSION 2022 (single precision)
+This run will default to '-update gpu' as requested by the GMX_FORCE_UPDATE_DEFAULT_GPU environment variable.
+Changing nstlist from 40 to 80, rlist from 0.995 to 1.041
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 8 OpenMP threads 
+
+
+Overriding thread affinity set outside gmx mdrun
+
+Applying core pinning offset 8
+
+WARNING: Requested offset too large for available logical cpus, thread pinning disabled.
+starting mdrun 'MDANALYSIS FRAME 0: Created by PDBWriter'
+125000000 steps, 250000.0 ps (continuing from step 125000000, 250000.0 ps).
+
+Writing final coordinates.
+
+Back Off! I just backed up npt_d11.gro to ./#npt_d11.gro.1#
+
+NOTE: 17 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        3.127        0.399      784.4
+                 (ns/day)    (hour/ns)
+Performance:        0.433       55.374
+
+GROMACS reminds you: "Give someone a program, you frustrate them for a day; teach them how to program, you frustrate them for a lifetime." (David Leinweber)
+

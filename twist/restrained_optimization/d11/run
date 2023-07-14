@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH -N1
+#SBATCH -n4
+#SBATCH --cpus-per-task=32
+#SBATCH --gres=gpu:4
+#SBATCH --time=24:00:00
+#SBATCH --account=IscrC_BARTWIST
+#SBATCH --partition=m100_usr_prod
+#SBATCH --job-name locuaz
+#SBATCH -o salida_locuaz
+#SBATCH -e error_locuaz
+#SBATCH --exclusive
+#SBATCH --depend=afterany:9708893
+
+cd $SLURM_SUBMIT_DIR
+
+for jobid in `cat catenaded_jobids`
+do
+	scancel $jobid
+done
+
+source /m100/home/userexternal/pbarlett/.bashrc
+conda activate locuaz
+module load profile/lifesc
+module load autoload gromacs/2021.4
+
+python /m100/home/userexternal/pbarlett/locuaz/locuaz/protocol.py config_d11.yaml

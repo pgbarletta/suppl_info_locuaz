@@ -1,0 +1,56 @@
+paths:
+    gmxrc: /cineca/prod/opt/applications/gromacs/2022/spectrum_mpi--10.4.0--binary/bin
+    scoring_functions: /m100/home/userexternal/pbarlett/SF
+    mutator: /m100_work/AIRC_Fortun21/SF/evoef2
+    mdp: /m100_work/AIRC_Fortun21/barletta/twist/restrained_optimization/mdp
+    input: [ /m100_work/AIRC_Fortun21/barletta/twist/restrained_optimization/d11/data ]
+    work: /m100_work/AIRC_Fortun21/barletta/twist/restrained_optimization/d11/work_dir
+
+main:
+    name: d11
+    starting_epoch: 0
+
+protocol:
+    epochs: 5
+    branches: 4
+    prunner: threshold
+    generator: SPM4i
+    mutator: evoef2
+    memory_size: 4
+    failed_memory_size: 6
+    #memory_positions: [[27, 28, 30, 105, 106]]
+    #failed_memory_positions: [ [], [27, 28] ]
+
+md:
+        #gmx_bin: gmx_thread_mpi mdrun
+    gmx_bin: mdrun_thread_mpi
+    mdp_names:
+        min_mdp: min.mdp
+        nvt_mdp: nvt.mdp
+        npt_mdp: npt_restr_30ns.mdp
+    ngpus: 4
+    mpi_procs: 1
+    omp_procs: 8
+    pinoffsets: [0, 32, 64, 96]
+    water_type: tip3p
+    force_field: amber99sb-ildn
+    box_type: octahedron
+
+target:
+    chainID: [A]
+
+binder:
+    chainID: [B]
+    mutating_chainID: [B, B, B]
+    mutating_resSeq: [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59],
+        [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]]
+    mutating_resname: [['A', 'G', 'W', 'E', 'N', 'T', 'I'], ['Y', 'A', 'S', 'S', 'Y', 'P', 'A'],
+        ['A', 'K', 'I', 'R', 'N', 'Q', 'L', 'H', 'G', 'R', 'G', 'G', 'K', 'S', 'D', 'S', 'P', 'T']]
+
+scoring:
+    functions: [bluues, evoef2, piepisa, gmx_mmpbsa]
+    consensus_threshold: 2
+    start: 50
+    end: -1
+    nthreads: 120
+    mpiprocs: 1

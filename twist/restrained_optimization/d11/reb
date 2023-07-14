@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH -N1
+#SBATCH -n16
+#SBATCH --cpus-per-task=8
+#SBATCH --gres=gpu:4
+#SBATCH --time=2:00:00
+#SBATCH --account=IscrC_BARTWIST
+#SBATCH --partition=m100_usr_prod
+#SBATCH --qos=m100_qos_dbg
+#SBATCH --job-name reb_STEP
+#SBATCH -o salida_reb_STEP
+#SBATCH -e error_reb_STEP
+#SBATCH --exclusive
+#SBATCH --depend=afterany:XYZ
+
+cd $SLURM_SUBMIT_DIR
+
+source /m100/home/userexternal/pbarlett/.bashrc
+conda activate locuaz
+module load profile/lifesc
+module load autoload gromacs/2021.4
+
+python /m100/home/userexternal/pbarlett/locuaz/locuaz/locuaz.py config_d11.yaml

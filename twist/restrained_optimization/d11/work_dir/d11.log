@@ -1,0 +1,1000 @@
+2023-03-19 11:27:49 - INFO - -----------------------------
+2023-03-19 11:27:49 - INFO - Setting up work project.
+2023-03-19 11:28:39 - INFO - Start of new Work Dir, not writing tracking info yet.
+2023-03-19 11:28:39 - INFO - Launching.
+2023-03-19 11:28:39 - INFO - Running epoch 0 (0 on this run).
+2023-03-19 11:28:39 - INFO - Queuing MIN of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 11:29:19 - INFO - Queuing NVT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 11:36:12 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 13:29:27 - INFO - -----------------------------
+2023-03-19 13:29:27 - INFO - Setting up work project.
+2023-03-19 13:29:30 - INFO - 0-B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-19 13:29:35 - WARNING - Not a full WorkProject yet, could not track it.
+2023-03-19 13:29:35 - INFO - Launching.
+2023-03-19 13:29:35 - INFO - Running epoch 0 (0 on this run).
+2023-03-19 13:29:35 - INFO - Skipping minimization and NVT run of epoch 0
+2023-03-19 13:29:35 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 18:22:17 - INFO - Scoring epoch 0 (0 on this run).
+2023-03-19 18:22:17 - INFO - Scoring NPT run from iteration: B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT
+2023-03-19 18:22:17 - INFO - Splitting NPT trajectory in frames.
+2023-03-19 18:34:08 - INFO - bluues average score: -378.514
+2023-03-19 18:34:19 - INFO - evoef2 average score: -52.264
+2023-03-19 18:34:27 - INFO - pisa average score: -0.166
+2023-03-19 19:17:58 - INFO - gmx_mmpbsa average score: -32.659
+2023-03-19 19:17:58 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-19 19:18:00 - INFO - Time elapsed during B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT's 951 frames scoring: 3343.2878227233887
+2023-03-19 19:18:00 - INFO - Pruning epoch 0.
+2023-03-19 19:18:00 - INFO - Initializing new epoch 1 (1 on this run).
+2023-03-19 19:18:03 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and use of the interface.
+resSeq at the interface: {1, 2, 3, 5, 6, 7, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 55, 57, 75, 76, 77, 78, 79, 101, 103, 104, 105, 106, 107}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: set().
+'mutataing_resSeq' that may be mutated: [27, 28, 29, 30, 53, 54, 55, 57, 101, 103, 104, 105, 106, 107].
+2023-03-19 19:18:03 - INFO - New mutation: Mutation(chainID='B', resSeq=105, old_aa='L', new_aa='W', chainID_idx=2, resSeq_idx=6) on Epoch-Iteration: 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT
+2023-03-19 19:18:30 - INFO - Removed 9 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-19 19:18:30 - INFO - Adding 9 water molecules, and another 0 that will be replaced by ions later.
+2023-03-19 19:19:23 - INFO - New mutation: Mutation(chainID='B', resSeq=105, old_aa='L', new_aa='T', chainID_idx=2, resSeq_idx=6) on Epoch-Iteration: 1-B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT
+2023-03-19 19:19:49 - INFO - Removed 8 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-19 19:19:49 - INFO - Adding 8 water molecules, and another 0 that will be replaced by ions later.
+2023-03-19 19:20:42 - INFO - New mutation: Mutation(chainID='B', resSeq=105, old_aa='L', new_aa='K', chainID_idx=2, resSeq_idx=6) on Epoch-Iteration: 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-19 19:21:08 - INFO - Removed 8 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-19 19:21:08 - INFO - Adding 8 water molecules, and another 0 that will be replaced by ions later.
+2023-03-19 19:22:02 - INFO - New mutation: Mutation(chainID='B', resSeq=105, old_aa='L', new_aa='I', chainID_idx=2, resSeq_idx=6) on Epoch-Iteration: 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-19 19:22:28 - INFO - Removed 8 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-19 19:22:28 - INFO - Adding 8 water molecules, and another 0 that will be replaced by ions later.
+2023-03-19 19:23:21 - INFO - Running epoch 1 (1 on this run).
+2023-03-19 19:23:21 - INFO - Queuing MIN of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 19:23:21 - INFO - Queuing MIN of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-19 19:23:21 - INFO - Queuing MIN of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-19 19:23:21 - INFO - Queuing MIN of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-19 19:25:01 - INFO - Queuing NVT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-19 19:25:04 - INFO - Queuing NVT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-19 19:25:06 - INFO - Queuing NVT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-19 19:25:12 - INFO - Queuing NVT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 19:47:35 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-19 19:47:35 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-19 19:47:35 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-19 19:47:35 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-20 15:12:13 - INFO - -----------------------------
+2023-03-20 15:12:13 - INFO - Setting up work project.
+2023-03-20 15:12:21 - INFO - Previous epoch 0 top iterations: 0-B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT
+2023-03-20 15:12:24 - INFO - 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-20 15:12:39 - INFO - 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-20 15:12:53 - INFO - Launching.
+2023-03-20 15:12:53 - INFO - Running epoch 1 (0 on this run).
+2023-03-20 15:12:53 - INFO - Skipping minimization and NVT run of epoch 1
+2023-03-20 15:12:53 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-20 15:12:53 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-20 15:12:53 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-20 15:12:53 - INFO - Queuing NPT of the iteration B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-20 20:12:49 - INFO - Scoring epoch 1 (0 on this run).
+2023-03-20 20:12:49 - INFO - Scoring NPT run from iteration: B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT
+2023-03-20 20:12:49 - INFO - Splitting NPT trajectory in frames.
+2023-03-20 20:24:55 - INFO - bluues average score: -380.682
+2023-03-20 20:25:06 - INFO - evoef2 average score: -53.641
+2023-03-20 20:25:15 - INFO - pisa average score: -0.233
+2023-03-20 21:08:55 - INFO - gmx_mmpbsa average score: -39.179
+2023-03-20 21:08:55 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-20 21:08:57 - INFO - Time elapsed during B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT's 951 frames scoring: 3368.133258342743
+2023-03-20 21:08:57 - INFO - Scoring NPT run from iteration: B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT
+2023-03-20 21:08:57 - INFO - Splitting NPT trajectory in frames.
+2023-03-20 21:21:03 - INFO - bluues average score: -347.952
+2023-03-20 21:21:14 - INFO - evoef2 average score: -45.678
+2023-03-20 21:21:24 - INFO - pisa average score: -0.164
+2023-03-20 22:04:55 - INFO - gmx_mmpbsa average score: -30.576
+2023-03-20 22:04:55 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-20 22:04:57 - INFO - Time elapsed during B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT's 951 frames scoring: 3360.1540188789368
+2023-03-20 22:04:57 - INFO - Scoring NPT run from iteration: B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-20 22:04:57 - INFO - Splitting NPT trajectory in frames.
+2023-03-20 22:16:57 - INFO - bluues average score: -396.866
+2023-03-20 22:17:08 - INFO - evoef2 average score: -56.362
+2023-03-20 22:17:18 - INFO - pisa average score: -0.226
+2023-03-20 23:00:47 - INFO - gmx_mmpbsa average score: -28.452
+2023-03-20 23:00:47 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-20 23:00:48 - INFO - Time elapsed during B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT's 951 frames scoring: 3351.3135797977448
+2023-03-20 23:00:48 - INFO - Scoring NPT run from iteration: B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-20 23:00:48 - INFO - Splitting NPT trajectory in frames.
+2023-03-20 23:12:51 - INFO - bluues average score: -426.427
+2023-03-20 23:13:02 - INFO - evoef2 average score: -59.611
+2023-03-20 23:13:12 - INFO - pisa average score: -0.257
+2023-03-20 23:56:44 - INFO - gmx_mmpbsa average score: -47.511
+2023-03-20 23:56:44 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-20 23:56:45 - INFO - Time elapsed during B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT's 951 frames scoring: 3356.1160724163055
+2023-03-20 23:56:45 - INFO - Pruning epoch 1.
+2023-03-20 23:56:45 - INFO - Scoring functions: {'bluues', 'evoef2', 'pisa', 'gmx_mmpbsa'}
+2023-03-20 23:56:45 - INFO - 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 0-B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-20 23:56:45 - INFO - Scoring functions: {'bluues', 'evoef2', 'pisa', 'gmx_mmpbsa'}
+2023-03-20 23:56:45 - INFO - 1-B_AGWENTI-B_YASSYPA-B_AKIRNQTHGRGGKSDSPT vs. 0-B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-03-20 23:56:45 - INFO - Scoring functions: {'bluues', 'evoef2', 'pisa', 'gmx_mmpbsa'}
+2023-03-20 23:56:45 - INFO - 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 0-B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-20 23:56:45 - INFO - Scoring functions: {'bluues', 'evoef2', 'pisa', 'gmx_mmpbsa'}
+2023-03-20 23:56:45 - INFO - 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 0-B_AGWENTI-B_YASSYPA-B_AKIRNQLHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-20 23:56:45 - INFO - Successful epoch after mutating resSeqs: {105} .
+2023-03-20 23:56:45 - INFO - Top iterations: 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-20 23:56:45 - INFO - Initializing new epoch 2 (1 on this run).
+2023-03-20 23:56:48 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and use of the interface.
+resSeq at the interface: {1, 2, 3, 5, 7, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 57, 75, 76, 77, 78, 79, 101, 102, 103, 104, 105, 106, 108}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {105}.
+'mutataing_resSeq' that may be mutated: [27, 28, 29, 30, 53, 54, 57, 101, 102, 103, 104, 106, 108].
+2023-03-20 23:56:48 - INFO - New mutation: Mutation(chainID='B', resSeq=27, old_aa='A', new_aa='F', chainID_idx=0, resSeq_idx=0) on Epoch-Iteration: 2-B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-20 23:57:14 - INFO - Removed 8 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-20 23:57:14 - INFO - Adding 8 water molecules, and another 1 that will be replaced by ions later.
+2023-03-20 23:58:08 - INFO - New mutation: Mutation(chainID='B', resSeq=27, old_aa='A', new_aa='R', chainID_idx=0, resSeq_idx=0) on Epoch-Iteration: 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-20 23:58:34 - INFO - Removed 9 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-20 23:58:34 - INFO - Adding 9 water molecules, and another 1 that will be replaced by ions later.
+2023-03-20 23:59:28 - INFO - New mutation: Mutation(chainID='B', resSeq=27, old_aa='A', new_aa='L', chainID_idx=0, resSeq_idx=0) on Epoch-Iteration: 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-20 23:59:54 - INFO - Removed 7 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-20 23:59:54 - INFO - Adding 7 water molecules, and another 0 that will be replaced by ions later.
+2023-03-21 00:00:47 - INFO - New mutation: Mutation(chainID='B', resSeq=27, old_aa='A', new_aa='E', chainID_idx=0, resSeq_idx=0) on Epoch-Iteration: 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT
+2023-03-21 00:01:13 - INFO - Removed 9 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-21 00:01:13 - INFO - Adding 9 water molecules, and another 0 that will be replaced by ions later.
+2023-03-21 00:02:07 - INFO - Running epoch 2 (1 on this run).
+2023-03-21 00:02:07 - INFO - Queuing MIN of the iteration B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-21 00:02:07 - INFO - Queuing MIN of the iteration B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-21 00:02:07 - INFO - Queuing MIN of the iteration B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-21 00:02:07 - INFO - Queuing MIN of the iteration B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-21 00:03:46 - INFO - Queuing NVT of the iteration B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-21 00:03:53 - INFO - Queuing NVT of the iteration B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-21 00:03:56 - INFO - Queuing NVT of the iteration B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-21 00:03:56 - INFO - Queuing NVT of the iteration B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-21 00:26:27 - INFO - Queuing NPT of the iteration B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-21 00:26:27 - INFO - Queuing NPT of the iteration B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-21 00:26:27 - INFO - Queuing NPT of the iteration B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-21 00:26:27 - INFO - Queuing NPT of the iteration B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-22 01:24:09 - INFO - -----------------------------
+2023-03-22 01:24:09 - INFO - Setting up work project.
+2023-03-22 01:24:41 - INFO - Previous epoch 1 top iterations: 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-22 01:24:44 - INFO - 2-B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-22 01:24:51 - INFO - 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-22 01:24:59 - INFO - 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-22 01:25:07 - INFO - 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-22 01:25:13 - INFO - Launching.
+2023-03-22 01:25:13 - INFO - Running epoch 2 (0 on this run).
+2023-03-22 01:25:13 - INFO - Skipping minimization and NVT run of epoch 2
+2023-03-22 01:25:13 - INFO - Queuing NPT of the iteration B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-22 01:25:13 - INFO - Queuing NPT of the iteration B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-22 01:25:13 - INFO - Queuing NPT of the iteration B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-22 01:25:13 - INFO - Queuing NPT of the iteration B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-22 11:14:02 - INFO - Scoring epoch 2 (0 on this run).
+2023-03-22 11:14:02 - INFO - Scoring NPT run from iteration: B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-22 11:14:02 - INFO - Splitting NPT trajectory in frames.
+2023-03-22 11:20:08 - INFO - bluues average score: -414.846
+2023-03-22 11:20:13 - INFO - evoef2 average score: -52.805
+2023-03-22 11:20:18 - INFO - pisa average score: -0.214
+2023-03-22 12:03:43 - INFO - gmx_mmpbsa average score: -47.570
+2023-03-22 12:03:43 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-22 12:03:44 - INFO - Time elapsed during B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT's 456 frames scoring: 2981.7668101787567
+2023-03-22 12:03:44 - INFO - Scoring NPT run from iteration: B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-22 12:03:44 - INFO - Splitting NPT trajectory in frames.
+2023-03-22 12:14:48 - INFO - bluues average score: -442.325
+2023-03-22 12:14:58 - INFO - evoef2 average score: -52.234
+2023-03-22 12:15:07 - INFO - pisa average score: -0.260
+2023-03-22 12:58:25 - INFO - gmx_mmpbsa average score: -60.976
+2023-03-22 12:58:25 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-22 12:58:27 - INFO - Time elapsed during B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT's 863 frames scoring: 3283.3901393413544
+2023-03-22 12:58:27 - INFO - Scoring NPT run from iteration: B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-22 12:58:27 - INFO - Splitting NPT trajectory in frames.
+2023-03-22 13:06:48 - INFO - bluues average score: -454.418
+2023-03-22 13:06:55 - INFO - evoef2 average score: -68.067
+2023-03-22 13:07:02 - INFO - pisa average score: -0.306
+2023-03-22 13:50:45 - INFO - gmx_mmpbsa average score: -65.532
+2023-03-22 13:50:46 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-22 13:50:47 - INFO - Time elapsed during B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT's 639 frames scoring: 3139.7054641246796
+2023-03-22 13:50:47 - INFO - Scoring NPT run from iteration: B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT
+2023-03-22 13:50:47 - INFO - Splitting NPT trajectory in frames.
+2023-03-22 14:01:53 - INFO - bluues average score: -440.222
+2023-03-22 14:02:03 - INFO - evoef2 average score: -61.178
+2023-03-22 14:02:12 - INFO - pisa average score: -0.267
+2023-03-22 14:45:53 - INFO - gmx_mmpbsa average score: -53.800
+2023-03-22 14:45:53 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-22 14:45:55 - INFO - Time elapsed during B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT's 860 frames scoring: 3308.3569042682648
+2023-03-22 14:45:55 - INFO - Pruning epoch 2.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_FGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Scoring functions: {'evoef2', 'bluues', 'pisa', 'gmx_mmpbsa'}
+2023-03-22 14:45:55 - INFO - 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 1-B_AGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-22 14:45:55 - INFO - Successful epoch after mutating resSeqs: {27} .
+2023-03-22 14:45:55 - INFO - Top iterations: 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-22 14:45:55 - INFO - Initializing new epoch 3 (1 on this run).
+2023-03-22 14:45:58 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and use of the interface.
+resSeq at the interface: {1, 2, 3, 4, 5, 6, 7, 21, 23, 24, 25, 26, 27, 28, 29, 30, 53, 75, 76, 77, 78, 79, 81, 101, 102, 103, 104, 105, 106, 117}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {27}.
+'mutataing_resSeq' that may be mutated: [28, 29, 30, 53, 101, 102, 103, 104, 105, 106].
+2023-03-22 14:45:58 - INFO - New mutation: Mutation(chainID='B', resSeq=102, old_aa='R', new_aa='K', chainID_idx=2, resSeq_idx=3) on Epoch-Iteration: 3-B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT
+2023-03-22 14:46:25 - INFO - Removed 11 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-22 14:46:25 - INFO - Adding 11 water molecules, and another 2 that will be replaced by ions later.
+2023-03-22 14:47:19 - INFO - New mutation: Mutation(chainID='B', resSeq=102, old_aa='R', new_aa='Y', chainID_idx=2, resSeq_idx=3) on Epoch-Iteration: 3-B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT
+2023-03-22 14:47:45 - INFO - Removed 10 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-22 14:47:45 - INFO - Adding 10 water molecules, and another 2 that will be replaced by ions later.
+2023-03-22 14:48:38 - INFO - New mutation: Mutation(chainID='B', resSeq=102, old_aa='R', new_aa='S', chainID_idx=2, resSeq_idx=3) on Epoch-Iteration: 3-B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT
+2023-03-22 14:49:04 - INFO - Removed 10 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-22 14:49:04 - INFO - Adding 10 water molecules, and another 0 that will be replaced by ions later.
+2023-03-22 14:49:58 - INFO - New mutation: Mutation(chainID='B', resSeq=102, old_aa='R', new_aa='V', chainID_idx=2, resSeq_idx=3) on Epoch-Iteration: 3-B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT
+2023-03-22 14:50:24 - INFO - Removed 5 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-22 14:50:24 - INFO - Adding 5 water molecules, and another 1 that will be replaced by ions later.
+2023-03-22 14:51:17 - INFO - Running epoch 3 (1 on this run).
+2023-03-22 14:51:17 - INFO - Queuing MIN of the iteration B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-22 14:51:17 - INFO - Queuing MIN of the iteration B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-22 14:51:17 - INFO - Queuing MIN of the iteration B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-22 14:51:17 - INFO - Queuing MIN of the iteration B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-22 14:52:56 - INFO - Queuing NVT of the iteration B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-22 14:53:03 - INFO - Queuing NVT of the iteration B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-22 14:53:05 - INFO - Queuing NVT of the iteration B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-22 14:53:06 - INFO - Queuing NVT of the iteration B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-22 15:17:52 - INFO - Queuing NPT of the iteration B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-22 15:17:52 - INFO - Queuing NPT of the iteration B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-22 15:17:52 - INFO - Queuing NPT of the iteration B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-22 15:17:52 - INFO - Queuing NPT of the iteration B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-24 01:46:32 - INFO - -----------------------------
+2023-03-24 01:46:32 - INFO - Setting up work project.
+2023-03-24 01:47:05 - INFO - Previous epoch 2 top iterations: 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-24 01:47:07 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-24 01:47:15 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-24 01:47:23 - INFO - 3-B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-24 01:47:31 - INFO - 3-B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-25 23:42:52 - INFO - -----------------------------
+2023-03-25 23:42:52 - INFO - Setting up work project.
+2023-03-25 23:43:24 - INFO - Previous epoch 2 top iterations: 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-25 23:43:26 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-25 23:43:34 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-25 23:43:42 - INFO - 3-B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-25 23:43:50 - INFO - 3-B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-25 23:43:56 - INFO - Launching.
+2023-03-25 23:43:56 - INFO - Running epoch 3 (0 on this run).
+2023-03-25 23:43:56 - INFO - Skipping minimization and NVT run of epoch 3
+2023-03-25 23:43:56 - INFO - Queuing NPT of the iteration B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-25 23:43:56 - INFO - Queuing NPT of the iteration B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-25 23:43:56 - INFO - Queuing NPT of the iteration B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-25 23:43:56 - INFO - Queuing NPT of the iteration B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-26 13:51:25 - INFO - Scoring epoch 3 (0 on this run).
+2023-03-26 13:51:25 - INFO - Scoring NPT run from iteration: B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT
+2023-03-26 13:51:25 - INFO - Splitting NPT trajectory in frames.
+2023-03-26 13:54:16 - INFO - bluues average score: -386.011
+2023-03-26 13:54:19 - INFO - evoef2 average score: -43.357
+2023-03-26 13:54:41 - INFO - piepisa average score: -0.195
+2023-03-26 14:38:22 - INFO - gmx_mmpbsa average score: -34.000
+2023-03-26 14:38:22 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-26 14:38:22 - INFO - Time elapsed during B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT's 201 frames scoring: 2817.0313863754272
+2023-03-26 14:38:22 - INFO - Scoring NPT run from iteration: B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT
+2023-03-26 14:38:22 - INFO - Splitting NPT trajectory in frames.
+2023-03-26 14:41:15 - INFO - bluues average score: -354.788
+2023-03-26 14:41:17 - INFO - evoef2 average score: -43.441
+2023-03-26 14:41:39 - INFO - piepisa average score: -0.115
+2023-03-26 15:25:00 - INFO - gmx_mmpbsa average score: -31.659
+2023-03-26 15:25:00 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-26 15:25:01 - INFO - Time elapsed during B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT's 201 frames scoring: 2798.702587366104
+2023-03-26 15:25:01 - INFO - Scoring NPT run from iteration: B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT
+2023-03-26 15:25:01 - INFO - Splitting NPT trajectory in frames.
+2023-03-26 15:27:51 - INFO - bluues average score: -436.302
+2023-03-26 15:27:54 - INFO - evoef2 average score: -73.421
+2023-03-26 15:28:15 - INFO - piepisa average score: -0.286
+2023-03-26 16:11:50 - INFO - gmx_mmpbsa average score: -62.173
+2023-03-26 16:11:50 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-26 16:11:50 - INFO - Time elapsed during B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT's 201 frames scoring: 2809.027829885483
+2023-03-26 16:11:50 - INFO - Scoring NPT run from iteration: B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT
+2023-03-26 16:11:50 - INFO - Splitting NPT trajectory in frames.
+2023-03-26 16:14:40 - INFO - bluues average score: -415.818
+2023-03-26 16:14:43 - INFO - evoef2 average score: -59.565
+2023-03-26 16:15:04 - INFO - piepisa average score: -0.288
+2023-03-26 16:58:40 - INFO - gmx_mmpbsa average score: -54.671
+2023-03-26 16:58:40 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-26 16:58:41 - INFO - Time elapsed during B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT's 201 frames scoring: 2810.7205748558044
+2023-03-26 16:58:41 - INFO - Pruning epoch 3.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIKNQKHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_RGWENTI-B_YASSYPA-B_AKIYNQKHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_LGWENTI-B_YASSYPA-B_AKISNQIHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Scoring functions: {'evoef2', 'bluues'}
+2023-03-26 16:58:41 - INFO - 3-B_EGWENTI-B_YASSYPA-B_AKIVNQWHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-26 16:58:41 - INFO - Failed epoch after mutating resSeqs: {102}. Backing up epoch 3.
+2023-03-26 16:58:41 - INFO - Top iterations: 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-26 16:58:41 - INFO - Initializing new epoch 3 (1 on this run).
+2023-03-26 16:58:44 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 2, 3, 4, 5, 6, 7, 21, 23, 24, 25, 26, 27, 28, 29, 30, 53, 75, 76, 77, 78, 79, 81, 101, 102, 103, 104, 105, 106, 117}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {102}.
+'mutataing_resSeq' that may be mutated: [27, 28, 29, 30, 53, 101, 103, 104, 105, 106].
+2023-03-26 16:58:44 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='W', new_aa='A', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 3-B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-26 16:59:10 - INFO - Removed 11 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-26 16:59:10 - INFO - Adding 11 water molecules, and another 0 that will be replaced by ions later.
+2023-03-26 17:00:03 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='W', new_aa='E', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-26 17:00:30 - INFO - Removed 12 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-26 17:00:30 - INFO - Adding 12 water molecules, and another 0 that will be replaced by ions later.
+2023-03-26 17:01:23 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='W', new_aa='Q', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 3-B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-26 17:01:50 - INFO - Removed 23 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-26 17:01:50 - INFO - Adding 23 water molecules, and another 2 that will be replaced by ions later.
+2023-03-26 17:02:43 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='W', new_aa='F', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 3-B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT
+2023-03-26 17:03:09 - INFO - Removed 14 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-26 17:03:09 - INFO - Adding 14 water molecules, and another 1 that will be replaced by ions later.
+2023-03-26 17:04:03 - INFO - Running epoch 3 (1 on this run).
+2023-03-26 17:04:03 - INFO - Queuing MIN of the iteration B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-26 17:04:03 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-26 17:04:03 - INFO - Queuing MIN of the iteration B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-26 17:04:03 - INFO - Queuing MIN of the iteration B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-26 17:05:44 - INFO - Queuing NVT of the iteration B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-26 17:05:44 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-26 17:05:51 - INFO - Queuing NVT of the iteration B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-26 17:05:55 - INFO - Queuing NVT of the iteration B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-26 17:28:08 - INFO - Queuing NPT of the iteration B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-26 17:28:08 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-26 17:28:08 - INFO - Queuing NPT of the iteration B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-26 17:28:08 - INFO - Queuing NPT of the iteration B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-27 08:51:16 - INFO - -----------------------------
+2023-03-27 08:51:16 - INFO - Setting up work project.
+2023-03-27 08:51:48 - INFO - Previous epoch 2 top iterations: 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT ; 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT ; 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-27 08:51:50 - INFO - 3-B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-27 08:51:58 - INFO - 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-27 08:52:06 - INFO - 3-B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-27 08:52:14 - INFO - 3-B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-27 08:52:20 - INFO - Launching.
+2023-03-27 08:52:20 - INFO - Running epoch 3 (0 on this run).
+2023-03-27 08:52:20 - INFO - Skipping minimization and NVT run of epoch 3
+2023-03-27 08:52:20 - INFO - Queuing NPT of the iteration B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-27 08:52:20 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-27 08:52:20 - INFO - Queuing NPT of the iteration B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-27 08:52:20 - INFO - Queuing NPT of the iteration B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-28 00:59:36 - INFO - Scoring epoch 3 (0 on this run).
+2023-03-28 00:59:36 - INFO - Scoring NPT run from iteration: B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 00:59:36 - INFO - Splitting NPT trajectory in frames.
+2023-03-28 01:02:30 - INFO - bluues average score: -422.576
+2023-03-28 01:02:32 - INFO - evoef2 average score: -66.487
+2023-03-28 01:02:54 - INFO - piepisa average score: -0.190
+2023-03-28 01:46:37 - INFO - gmx_mmpbsa average score: -51.008
+2023-03-28 01:46:37 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-28 01:46:37 - INFO - Time elapsed during B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2821.64435505867
+2023-03-28 01:46:37 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 01:46:37 - INFO - Splitting NPT trajectory in frames.
+2023-03-28 01:49:28 - INFO - bluues average score: -519.216
+2023-03-28 01:49:30 - INFO - evoef2 average score: -75.703
+2023-03-28 01:49:52 - INFO - piepisa average score: -0.250
+2023-03-28 02:33:27 - INFO - gmx_mmpbsa average score: -73.151
+2023-03-28 02:33:27 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-28 02:33:28 - INFO - Time elapsed during B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2810.5117576122284
+2023-03-28 02:33:28 - INFO - Scoring NPT run from iteration: B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT
+2023-03-28 02:33:28 - INFO - Splitting NPT trajectory in frames.
+2023-03-28 02:36:20 - INFO - bluues average score: -402.016
+2023-03-28 02:36:23 - INFO - evoef2 average score: -45.697
+2023-03-28 02:36:44 - INFO - piepisa average score: -0.153
+2023-03-28 03:20:20 - INFO - gmx_mmpbsa average score: -34.082
+2023-03-28 03:20:20 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-28 03:20:20 - INFO - Time elapsed during B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT's 201 frames scoring: 2812.3569560050964
+2023-03-28 03:20:20 - INFO - Scoring NPT run from iteration: B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT
+2023-03-28 03:20:20 - INFO - Splitting NPT trajectory in frames.
+2023-03-28 03:23:11 - INFO - bluues average score: -423.568
+2023-03-28 03:23:14 - INFO - evoef2 average score: -59.189
+2023-03-28 03:23:35 - INFO - piepisa average score: -0.252
+2023-03-28 04:07:18 - INFO - gmx_mmpbsa average score: -57.568
+2023-03-28 04:07:18 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-28 04:07:19 - INFO - Time elapsed during B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT's 201 frames scoring: 2818.5163543224335
+2023-03-28 04:07:19 - INFO - Pruning epoch 3.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_LGAENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 2 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 2 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 2 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_RGQENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 2-B_EGWENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 2-B_LGWENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Scoring functions: {'bluues', 'evoef2'}
+2023-03-28 04:07:19 - INFO - 3-B_EGFENTI-B_YASSYPA-B_AKIRNQWHGRGGKSDSPT vs. 2-B_RGWENTI-B_YASSYPA-B_AKIRNQKHGRGGKSDSPT improves on 1 of 2 scoring functions.
+2023-03-28 04:07:19 - INFO - Successful epoch after mutating resSeqs: {29} .
+2023-03-28 04:07:19 - INFO - Top iterations: 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 04:07:19 - INFO - Initializing new epoch 4 (1 on this run).
+2023-03-28 04:07:22 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 3, 5, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 57, 73, 74, 75, 76, 78, 103, 104, 105, 106, 107, 108}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {29, 102}.
+'mutataing_resSeq' that may be mutated: [27, 28, 30, 53, 54, 57, 103, 104, 105, 106, 107, 108].
+2023-03-28 04:07:22 - INFO - New mutation: Mutation(chainID='B', resSeq=54, old_aa='A', new_aa='T', chainID_idx=1, resSeq_idx=1) on Epoch-Iteration: 4-B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 04:07:48 - INFO - Removed 10 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-28 04:07:48 - INFO - Adding 10 water molecules, and another 1 that will be replaced by ions later.
+2023-03-28 04:08:42 - INFO - New mutation: Mutation(chainID='B', resSeq=54, old_aa='A', new_aa='G', chainID_idx=1, resSeq_idx=1) on Epoch-Iteration: 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 04:09:08 - INFO - Removed 8 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-28 04:09:08 - INFO - Adding 8 water molecules, and another 1 that will be replaced by ions later.
+2023-03-28 04:10:01 - INFO - New mutation: Mutation(chainID='B', resSeq=54, old_aa='A', new_aa='F', chainID_idx=1, resSeq_idx=1) on Epoch-Iteration: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 04:10:27 - INFO - Removed 16 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-28 04:10:27 - INFO - Adding 16 water molecules, and another 1 that will be replaced by ions later.
+2023-03-28 04:11:20 - INFO - New mutation: Mutation(chainID='B', resSeq=54, old_aa='A', new_aa='N', chainID_idx=1, resSeq_idx=1) on Epoch-Iteration: 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 04:11:46 - INFO - Removed 12 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-28 04:11:46 - INFO - Adding 12 water molecules, and another 1 that will be replaced by ions later.
+2023-03-28 04:12:40 - INFO - Running epoch 4 (1 on this run).
+2023-03-28 04:12:40 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-28 04:12:40 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-28 04:12:40 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-28 04:12:40 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-28 04:14:20 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-28 04:14:23 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-28 04:14:32 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-28 04:14:40 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-28 04:37:01 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-28 04:37:01 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-28 04:37:01 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-28 04:37:01 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-28 16:16:26 - INFO - -----------------------------
+2023-03-28 16:16:26 - INFO - Setting up work project.
+2023-03-28 16:17:02 - INFO - Previous epoch 3 top iterations: 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-28 16:17:04 - INFO - 4-B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-28 16:17:13 - INFO - 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-28 16:17:21 - INFO - 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-28 16:17:29 - INFO - 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-28 16:17:35 - INFO - Launching.
+2023-03-28 16:17:35 - INFO - Running epoch 4 (0 on this run).
+2023-03-28 16:17:35 - INFO - Skipping minimization and NVT run of epoch 4
+2023-03-28 16:17:35 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-28 16:17:35 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-28 16:17:35 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-28 16:17:35 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-29 11:56:28 - INFO - Scoring epoch 4 (0 on this run).
+2023-03-29 11:56:28 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 11:56:28 - INFO - Splitting NPT trajectory in frames.
+2023-03-29 11:59:29 - INFO - bluues average score: -495.448
+2023-03-29 11:59:31 - INFO - evoef2 average score: -71.276
+2023-03-29 11:59:53 - INFO - piepisa average score: -0.238
+2023-03-29 12:44:09 - INFO - gmx_mmpbsa average score: -71.275
+2023-03-29 12:44:09 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-29 12:44:09 - INFO - Time elapsed during B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2861.258048772812
+2023-03-29 12:44:09 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 12:44:09 - INFO - Splitting NPT trajectory in frames.
+2023-03-29 12:47:07 - INFO - bluues average score: -557.286
+2023-03-29 12:47:09 - INFO - evoef2 average score: -78.737
+2023-03-29 12:47:30 - INFO - piepisa average score: -0.299
+2023-03-29 13:31:35 - INFO - gmx_mmpbsa average score: -80.379
+2023-03-29 13:31:35 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-29 13:31:36 - INFO - Time elapsed during B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2846.330619573593
+2023-03-29 13:31:36 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 13:31:36 - INFO - Splitting NPT trajectory in frames.
+2023-03-29 13:34:27 - INFO - bluues average score: -546.977
+2023-03-29 13:34:30 - INFO - evoef2 average score: -81.261
+2023-03-29 13:34:51 - INFO - piepisa average score: -0.393
+2023-03-29 14:18:29 - INFO - gmx_mmpbsa average score: -86.544
+2023-03-29 14:18:29 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-29 14:18:29 - INFO - Time elapsed during B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2813.7555825710297
+2023-03-29 14:18:29 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 14:18:29 - INFO - Splitting NPT trajectory in frames.
+2023-03-29 14:21:21 - INFO - bluues average score: -544.226
+2023-03-29 14:21:23 - INFO - evoef2 average score: -77.587
+2023-03-29 14:21:45 - INFO - piepisa average score: -0.306
+2023-03-29 15:05:38 - INFO - gmx_mmpbsa average score: -79.417
+2023-03-29 15:05:38 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-29 15:05:39 - INFO - Time elapsed during B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2829.142881155014
+2023-03-29 15:05:39 - INFO - Pruning epoch 4.
+2023-03-29 15:05:39 - INFO - Scoring functions: {'gmx_mmpbsa', 'evoef2', 'piepisa', 'bluues'}
+2023-03-29 15:05:39 - INFO - 4-B_LGEENTI-B_YTSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-03-29 15:05:39 - INFO - Scoring functions: {'gmx_mmpbsa', 'evoef2', 'piepisa', 'bluues'}
+2023-03-29 15:05:39 - INFO - 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-29 15:05:39 - INFO - Scoring functions: {'gmx_mmpbsa', 'evoef2', 'piepisa', 'bluues'}
+2023-03-29 15:05:39 - INFO - 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-29 15:05:39 - INFO - Scoring functions: {'gmx_mmpbsa', 'evoef2', 'piepisa', 'bluues'}
+2023-03-29 15:05:39 - INFO - 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 3-B_LGEENTI-B_YASSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-03-29 15:05:39 - INFO - Successful epoch after mutating resSeqs: {54} .
+2023-03-29 15:05:39 - INFO - Top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 15:05:39 - INFO - Initializing new epoch 5 (1 on this run).
+2023-03-29 15:05:42 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 2, 3, 4, 5, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 55, 57, 75, 76, 78, 102, 103, 104, 105, 106, 107, 108, 118, 119, 120}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {102, 29, 54}.
+'mutataing_resSeq' that may be mutated: [27, 28, 30, 53, 55, 57, 103, 104, 105, 106, 107, 108].
+2023-03-29 15:05:42 - INFO - New mutation: Mutation(chainID='B', resSeq=57, old_aa='Y', new_aa='R', chainID_idx=1, resSeq_idx=4) on Epoch-Iteration: 5-B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 15:06:08 - INFO - Removed 17 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-29 15:06:08 - INFO - Adding 17 water molecules, and another 1 that will be replaced by ions later.
+2023-03-29 15:07:02 - INFO - New mutation: Mutation(chainID='B', resSeq=57, old_aa='Y', new_aa='M', chainID_idx=1, resSeq_idx=4) on Epoch-Iteration: 5-B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 15:07:28 - INFO - Removed 15 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-29 15:07:28 - INFO - Adding 15 water molecules, and another 1 that will be replaced by ions later.
+2023-03-29 15:08:22 - INFO - New mutation: Mutation(chainID='B', resSeq=57, old_aa='Y', new_aa='T', chainID_idx=1, resSeq_idx=4) on Epoch-Iteration: 5-B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 15:08:48 - INFO - Removed 7 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-29 15:08:48 - INFO - Adding 7 water molecules, and another 1 that will be replaced by ions later.
+2023-03-29 15:09:41 - INFO - New mutation: Mutation(chainID='B', resSeq=57, old_aa='Y', new_aa='W', chainID_idx=1, resSeq_idx=4) on Epoch-Iteration: 5-B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 15:10:08 - INFO - Removed 13 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-29 15:10:08 - INFO - Adding 13 water molecules, and another 1 that will be replaced by ions later.
+2023-03-29 15:11:01 - INFO - Running epoch 5 (1 on this run).
+2023-03-29 15:11:01 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-29 15:11:01 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-29 15:11:01 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-29 15:11:01 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-29 15:12:51 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-29 15:12:51 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-29 15:12:52 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-29 15:12:52 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-29 15:35:49 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-29 15:35:49 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-29 15:35:49 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-29 15:35:49 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-29 18:03:56 - INFO - -----------------------------
+2023-03-29 18:03:56 - INFO - Setting up work project.
+2023-03-29 18:04:28 - INFO - Previous epoch 4 top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-29 18:04:30 - INFO - 5-B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-29 18:04:38 - INFO - 5-B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-29 18:04:46 - INFO - 5-B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-29 18:04:54 - INFO - 5-B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-03-29 18:05:00 - INFO - Launching.
+2023-03-29 18:05:00 - INFO - Running epoch 5 (0 on this run).
+2023-03-29 18:05:00 - INFO - Skipping minimization and NVT run of epoch 5
+2023-03-29 18:05:00 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-29 18:05:00 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-29 18:05:00 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-29 18:05:00 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-30 17:04:57 - INFO - Scoring epoch 5 (0 on this run).
+2023-03-30 17:04:57 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-30 17:04:57 - INFO - Splitting NPT trajectory in frames.
+2023-03-30 17:07:47 - INFO - bluues average score: -549.460
+2023-03-30 17:07:50 - INFO - evoef2 average score: -76.042
+2023-03-30 17:08:12 - INFO - piepisa average score: -0.395
+2023-03-30 17:51:59 - INFO - gmx_mmpbsa average score: -80.074
+2023-03-30 17:51:59 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-30 17:51:59 - INFO - Time elapsed during B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2822.0103273391724
+2023-03-30 17:51:59 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-30 17:51:59 - INFO - Splitting NPT trajectory in frames.
+2023-03-30 17:54:48 - INFO - bluues average score: -534.030
+2023-03-30 17:54:51 - INFO - evoef2 average score: -79.416
+2023-03-30 17:55:12 - INFO - piepisa average score: -0.350
+2023-03-30 23:00:09 - INFO - -----------------------------
+2023-03-30 23:00:09 - INFO - Setting up work project.
+2023-03-30 23:00:41 - INFO - Previous epoch 4 top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-30 23:01:13 - INFO - Launching.
+2023-03-30 23:01:13 - INFO - Running epoch 5 (0 on this run).
+2023-03-30 23:01:13 - INFO - Skipping minimization and NVT run of epoch 5
+2023-03-30 23:01:13 - INFO - Skipping NPT run of epoch 5
+2023-03-30 23:01:13 - INFO - Scoring epoch 5 (0 on this run).
+2023-03-30 23:01:13 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-30 23:01:13 - INFO - Read old scores.
+2023-03-30 23:01:13 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-30 23:01:13 - WARNING - 5-B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT was not scored with bluues.
+2023-03-30 23:01:13 - INFO - Splitting NPT trajectory in frames.
+2023-03-30 23:04:06 - INFO - bluues average score: -534.030
+2023-03-30 23:04:08 - INFO - evoef2 average score: -79.416
+2023-03-30 23:04:29 - INFO - piepisa average score: -0.350
+2023-03-30 23:48:36 - INFO - gmx_mmpbsa average score: -84.521
+2023-03-30 23:48:36 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-30 23:48:36 - INFO - Time elapsed during B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2843.3175699710846
+2023-03-30 23:48:36 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-30 23:48:36 - INFO - Splitting NPT trajectory in frames.
+2023-03-30 23:51:25 - INFO - bluues average score: -541.149
+2023-03-30 23:51:27 - INFO - evoef2 average score: -77.774
+2023-03-30 23:51:49 - INFO - piepisa average score: -0.272
+2023-03-31 00:35:24 - INFO - gmx_mmpbsa average score: -87.522
+2023-03-31 00:35:24 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-31 00:35:25 - INFO - Time elapsed during B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2808.5284826755524
+2023-03-31 00:35:25 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-31 00:35:25 - INFO - Splitting NPT trajectory in frames.
+2023-03-31 00:38:13 - INFO - bluues average score: -563.405
+2023-03-31 00:38:16 - INFO - evoef2 average score: -81.217
+2023-03-31 00:38:37 - INFO - piepisa average score: -0.250
+2023-03-31 01:22:25 - INFO - gmx_mmpbsa average score: -83.522
+2023-03-31 01:22:25 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-03-31 01:22:25 - INFO - Time elapsed during B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2820.520665407181
+2023-03-31 01:22:25 - INFO - Pruning epoch 5.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YFSSRPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YFSSMPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YNSSTPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-03-31 01:22:25 - INFO - 5-B_LGEENTI-B_YGSSWPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-03-31 01:22:25 - INFO - Failed epoch after mutating resSeqs: {57}. Backing up epoch 5.
+2023-03-31 01:22:25 - INFO - Top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-31 01:22:25 - INFO - Initializing new epoch 5 (1 on this run).
+2023-03-31 01:22:28 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 2, 3, 4, 5, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 55, 57, 75, 76, 78, 102, 103, 104, 105, 106, 107, 108, 118, 119, 120}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {57, 29, 102}.
+'mutataing_resSeq' that may be mutated: [27, 28, 30, 53, 54, 55, 103, 104, 105, 106, 107, 108].
+2023-03-31 01:22:28 - INFO - New mutation: Mutation(chainID='B', resSeq=28, old_aa='G', new_aa='Y', chainID_idx=0, resSeq_idx=1) on Epoch-Iteration: 5-B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-31 01:22:55 - INFO - Removed 16 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-31 01:22:55 - INFO - Adding 16 water molecules, and another 1 that will be replaced by ions later.
+2023-03-31 01:23:49 - INFO - New mutation: Mutation(chainID='B', resSeq=28, old_aa='G', new_aa='I', chainID_idx=0, resSeq_idx=1) on Epoch-Iteration: 5-B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-31 01:24:15 - INFO - Removed 15 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-31 01:24:15 - INFO - Adding 15 water molecules, and another 1 that will be replaced by ions later.
+2023-03-31 01:25:09 - INFO - New mutation: Mutation(chainID='B', resSeq=28, old_aa='G', new_aa='Q', chainID_idx=0, resSeq_idx=1) on Epoch-Iteration: 5-B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-31 01:25:35 - INFO - Removed 19 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-31 01:25:35 - INFO - Adding 19 water molecules, and another 1 that will be replaced by ions later.
+2023-03-31 01:26:29 - INFO - New mutation: Mutation(chainID='B', resSeq=28, old_aa='G', new_aa='E', chainID_idx=0, resSeq_idx=1) on Epoch-Iteration: 5-B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-03-31 01:26:55 - INFO - Removed 18 water molecules within 3A from the mutated residue. Will replace them later.
+2023-03-31 01:26:55 - INFO - Adding 18 water molecules, and another 1 that will be replaced by ions later.
+2023-03-31 01:27:48 - INFO - Running epoch 5 (1 on this run).
+2023-03-31 01:27:48 - INFO - Queuing MIN of the iteration B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-31 01:27:48 - INFO - Queuing MIN of the iteration B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-31 01:27:48 - INFO - Queuing MIN of the iteration B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-31 01:27:48 - INFO - Queuing MIN of the iteration B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-31 01:29:23 - INFO - Queuing NVT of the iteration B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-03-31 01:29:31 - INFO - Queuing NVT of the iteration B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-31 01:29:37 - INFO - Queuing NVT of the iteration B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-31 01:30:39 - INFO - Queuing NVT of the iteration B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-31 01:51:32 - INFO - Queuing NPT of the iteration B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-03-31 01:51:32 - INFO - Queuing NPT of the iteration B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-03-31 01:51:32 - INFO - Queuing NPT of the iteration B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-03-31 01:51:32 - INFO - Queuing NPT of the iteration B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-01 00:47:14 - INFO - -----------------------------
+2023-04-01 00:47:14 - INFO - Setting up work project.
+2023-04-01 00:47:47 - INFO - Previous epoch 4 top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 00:47:49 - INFO - 5-B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-04-01 00:48:18 - INFO - Launching.
+2023-04-01 00:48:18 - INFO - Running epoch 5 (0 on this run).
+2023-04-01 00:48:18 - INFO - Skipping minimization and NVT run of epoch 5
+2023-04-01 00:48:18 - INFO - Queuing NPT of the iteration B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-01 00:48:18 - INFO - Queuing NPT of the iteration B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-01 00:48:18 - INFO - Queuing NPT of the iteration B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-01 00:48:18 - INFO - Queuing NPT of the iteration B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-01 03:59:40 - INFO - Scoring epoch 5 (0 on this run).
+2023-04-01 03:59:40 - INFO - Scoring NPT run from iteration: B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 03:59:40 - INFO - Splitting NPT trajectory in frames.
+2023-04-01 04:02:30 - INFO - bluues average score: -499.474
+2023-04-01 04:02:33 - INFO - evoef2 average score: -61.198
+2023-04-01 04:02:54 - INFO - piepisa average score: -0.251
+2023-04-01 04:46:48 - INFO - gmx_mmpbsa average score: -68.881
+2023-04-01 04:46:48 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-01 04:46:49 - INFO - Time elapsed during B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2828.6154289245605
+2023-04-01 04:46:49 - INFO - Scoring NPT run from iteration: B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 04:46:49 - INFO - Splitting NPT trajectory in frames.
+2023-04-01 04:49:38 - INFO - bluues average score: -541.678
+2023-04-01 04:49:40 - INFO - evoef2 average score: -77.654
+2023-04-01 04:50:01 - INFO - piepisa average score: -0.286
+2023-04-01 05:33:52 - INFO - gmx_mmpbsa average score: -78.299
+2023-04-01 05:33:52 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-01 05:33:52 - INFO - Time elapsed during B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2823.3856976032257
+2023-04-01 05:33:52 - INFO - Scoring NPT run from iteration: B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 05:33:52 - INFO - Splitting NPT trajectory in frames.
+2023-04-01 05:36:41 - INFO - bluues average score: -527.653
+2023-04-01 05:36:44 - INFO - evoef2 average score: -77.872
+2023-04-01 05:37:06 - INFO - piepisa average score: -0.312
+2023-04-01 06:20:58 - INFO - gmx_mmpbsa average score: -82.171
+2023-04-01 06:20:58 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-01 06:20:58 - INFO - Time elapsed during B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2825.988660812378
+2023-04-01 06:20:58 - INFO - Scoring NPT run from iteration: B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 06:20:58 - INFO - Splitting NPT trajectory in frames.
+2023-04-01 06:23:47 - INFO - bluues average score: -542.619
+2023-04-01 06:23:50 - INFO - evoef2 average score: -79.193
+2023-04-01 06:24:11 - INFO - piepisa average score: -0.306
+2023-04-01 07:07:56 - INFO - gmx_mmpbsa average score: -84.994
+2023-04-01 07:07:56 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-01 07:07:56 - INFO - Time elapsed during B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2818.1452317237854
+2023-04-01 07:07:56 - INFO - Pruning epoch 5.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LYEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LIEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LQEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Scoring functions: {'evoef2', 'gmx_mmpbsa', 'bluues', 'piepisa'}
+2023-04-01 07:07:56 - INFO - 5-B_LEEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-04-01 07:07:56 - INFO - Failed epoch after mutating resSeqs: {28}. Backing up epoch 5.
+2023-04-01 07:07:56 - INFO - Top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 07:07:56 - INFO - Initializing new epoch 5 (1 on this run).
+2023-04-01 07:07:59 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 2, 3, 4, 5, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 55, 57, 75, 76, 78, 102, 103, 104, 105, 106, 107, 108, 118, 119, 120}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {57, 28, 102}.
+'mutataing_resSeq' that may be mutated: [27, 29, 30, 53, 54, 55, 103, 104, 105, 106, 107, 108].
+2023-04-01 07:08:00 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='E', new_aa='A', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 5-B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 07:08:26 - INFO - Removed 13 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-01 07:08:26 - INFO - Adding 13 water molecules, and another 1 that will be replaced by ions later.
+2023-04-01 07:09:19 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='E', new_aa='S', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 5-B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 07:09:45 - INFO - Removed 14 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-01 07:09:45 - INFO - Adding 14 water molecules, and another 1 that will be replaced by ions later.
+2023-04-01 07:10:38 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='E', new_aa='N', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 5-B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 07:11:05 - INFO - Removed 11 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-01 07:11:05 - INFO - Adding 11 water molecules, and another 1 that will be replaced by ions later.
+2023-04-01 07:11:58 - INFO - New mutation: Mutation(chainID='B', resSeq=29, old_aa='E', new_aa='Y', chainID_idx=0, resSeq_idx=2) on Epoch-Iteration: 5-B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-01 07:12:24 - INFO - Removed 18 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-01 07:12:24 - INFO - Adding 18 water molecules, and another 1 that will be replaced by ions later.
+2023-04-01 07:13:17 - INFO - Running epoch 5 (1 on this run).
+2023-04-01 07:13:17 - INFO - Queuing MIN of the iteration B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-01 07:13:17 - INFO - Queuing MIN of the iteration B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-01 07:13:17 - INFO - Queuing MIN of the iteration B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-01 07:13:17 - INFO - Queuing MIN of the iteration B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-01 07:14:55 - INFO - Queuing NVT of the iteration B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-01 07:14:57 - INFO - Queuing NVT of the iteration B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-01 07:15:00 - INFO - Queuing NVT of the iteration B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-01 07:15:07 - INFO - Queuing NVT of the iteration B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-01 07:37:33 - INFO - Queuing NPT of the iteration B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-01 07:37:33 - INFO - Queuing NPT of the iteration B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-01 07:37:33 - INFO - Queuing NPT of the iteration B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-01 07:37:33 - INFO - Queuing NPT of the iteration B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-02 00:48:59 - INFO - -----------------------------
+2023-04-02 00:48:59 - INFO - Setting up work project.
+2023-04-02 00:49:31 - INFO - Previous epoch 4 top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-02 00:49:33 - INFO - 5-B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-04-02 00:49:49 - INFO - 5-B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT didn't finish its NPT MD.
+2023-04-02 00:50:02 - INFO - Launching.
+2023-04-02 00:50:02 - INFO - Running epoch 5 (0 on this run).
+2023-04-02 00:50:02 - INFO - Skipping minimization and NVT run of epoch 5
+2023-04-02 00:50:02 - INFO - Queuing NPT of the iteration B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-02 00:50:02 - INFO - Queuing NPT of the iteration B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-02 00:50:02 - INFO - Queuing NPT of the iteration B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-02 00:50:02 - INFO - Queuing NPT of the iteration B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-02 07:44:28 - INFO - Scoring epoch 5 (0 on this run).
+2023-04-02 07:44:28 - INFO - Scoring NPT run from iteration: B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-02 07:44:28 - INFO - Splitting NPT trajectory in frames.
+2023-04-02 07:47:17 - INFO - bluues average score: -510.231
+2023-04-02 07:47:20 - INFO - evoef2 average score: -77.662
+2023-04-02 07:47:41 - INFO - piepisa average score: -0.379
+2023-04-02 08:31:24 - INFO - gmx_mmpbsa average score: -70.017
+2023-04-02 08:31:24 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-02 08:31:25 - INFO - Time elapsed during B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2816.717859506607
+2023-04-02 08:31:25 - INFO - Scoring NPT run from iteration: B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-02 08:31:25 - INFO - Splitting NPT trajectory in frames.
+2023-04-02 08:34:14 - INFO - bluues average score: -430.456
+2023-04-02 08:34:16 - INFO - evoef2 average score: -67.778
+2023-04-02 08:34:37 - INFO - piepisa average score: -0.227
+2023-04-02 09:18:23 - INFO - gmx_mmpbsa average score: -58.146
+2023-04-02 09:18:23 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-02 09:18:23 - INFO - Time elapsed during B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2818.269124984741
+2023-04-02 09:18:23 - INFO - Scoring NPT run from iteration: B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-02 09:18:23 - INFO - Splitting NPT trajectory in frames.
+2023-04-02 09:21:13 - INFO - bluues average score: -473.070
+2023-04-02 09:21:15 - INFO - evoef2 average score: -75.856
+2023-04-02 09:21:36 - INFO - piepisa average score: -0.294
+2023-04-02 10:05:24 - INFO - gmx_mmpbsa average score: -71.894
+2023-04-02 10:05:24 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-02 10:05:24 - INFO - Time elapsed during B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2821.5359692573547
+2023-04-02 10:05:24 - INFO - Scoring NPT run from iteration: B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-02 10:05:24 - INFO - Splitting NPT trajectory in frames.
+2023-04-02 10:08:14 - INFO - bluues average score: -404.119
+2023-04-02 10:08:16 - INFO - evoef2 average score: -63.247
+2023-04-02 10:08:37 - INFO - piepisa average score: -0.182
+2023-04-02 10:52:38 - INFO - gmx_mmpbsa average score: -53.514
+2023-04-02 10:52:38 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-02 10:52:38 - INFO - Time elapsed during B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT's 201 frames scoring: 2833.625767469406
+2023-04-02 10:52:38 - INFO - Pruning epoch 5.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGAENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGSENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGNENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Scoring functions: {'gmx_mmpbsa', 'bluues', 'evoef2', 'piepisa'}
+2023-04-02 10:52:38 - INFO - 5-B_LGYENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-02 10:52:38 - INFO - Failed epoch after mutating resSeqs: {29}. Backing up epoch 5.
+2023-04-02 10:52:38 - INFO - Top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-02 10:52:38 - INFO - Initializing new epoch 5 (1 on this run).
+2023-04-02 10:52:41 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 2, 3, 4, 5, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 55, 57, 75, 76, 78, 102, 103, 104, 105, 106, 107, 108, 118, 119, 120}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {57, 28, 29, 102}.
+'mutataing_resSeq' that may be mutated: [27, 30, 53, 54, 55, 103, 104, 105, 106, 107, 108].
+2023-04-02 10:52:41 - INFO - New mutation: Mutation(chainID='B', resSeq=107, old_aa='G', new_aa='T', chainID_idx=2, resSeq_idx=8) on Epoch-Iteration: 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT
+2023-04-02 10:53:08 - INFO - Removed 12 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-02 10:53:08 - INFO - Adding 12 water molecules, and another 1 that will be replaced by ions later.
+2023-04-02 10:54:01 - INFO - New mutation: Mutation(chainID='B', resSeq=107, old_aa='G', new_aa='I', chainID_idx=2, resSeq_idx=8) on Epoch-Iteration: 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT
+2023-04-02 10:54:27 - INFO - Removed 11 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-02 10:54:27 - INFO - Adding 11 water molecules, and another 1 that will be replaced by ions later.
+2023-04-02 10:55:21 - INFO - New mutation: Mutation(chainID='B', resSeq=107, old_aa='G', new_aa='R', chainID_idx=2, resSeq_idx=8) on Epoch-Iteration: 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT
+2023-04-02 10:55:47 - INFO - Removed 22 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-02 10:55:47 - INFO - Adding 22 water molecules, and another 1 that will be replaced by ions later.
+2023-04-02 10:56:40 - INFO - New mutation: Mutation(chainID='B', resSeq=107, old_aa='G', new_aa='W', chainID_idx=2, resSeq_idx=8) on Epoch-Iteration: 5-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT
+2023-04-02 10:57:06 - INFO - Removed 21 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-02 10:57:06 - INFO - Adding 21 water molecules, and another 1 that will be replaced by ions later.
+2023-04-02 10:58:00 - INFO - Running epoch 5 (1 on this run).
+2023-04-02 10:58:00 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-02 10:58:00 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-02 10:58:00 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-02 10:58:00 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-02 10:59:28 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-02 10:59:42 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-02 10:59:45 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-02 10:59:52 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-02 11:21:42 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-02 11:21:42 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-02 11:21:42 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-02 11:21:42 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-03 00:49:51 - INFO - -----------------------------
+2023-04-03 00:49:51 - INFO - Setting up work project.
+2023-04-03 00:50:23 - INFO - Previous epoch 4 top iterations: 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT ; 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT
+2023-04-03 00:50:25 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT didn't finish its NPT MD.
+2023-04-03 00:50:33 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT didn't finish its NPT MD.
+2023-04-03 00:50:41 - INFO - 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT didn't finish its NPT MD.
+2023-04-03 00:50:49 - INFO - 5-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT didn't finish its NPT MD.
+2023-04-03 00:50:55 - INFO - Launching.
+2023-04-03 00:50:55 - INFO - Running epoch 5 (0 on this run).
+2023-04-03 00:50:55 - INFO - Skipping minimization and NVT run of epoch 5
+2023-04-03 00:50:55 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-03 00:50:55 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-03 00:50:55 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-03 00:50:55 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-03 10:27:35 - INFO - Scoring epoch 5 (0 on this run).
+2023-04-03 10:27:35 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT
+2023-04-03 10:27:35 - INFO - Splitting NPT trajectory in frames.
+2023-04-03 10:30:27 - INFO - bluues average score: -566.480
+2023-04-03 10:30:30 - INFO - evoef2 average score: -80.004
+2023-04-03 10:30:52 - INFO - piepisa average score: -0.313
+2023-04-03 11:14:49 - INFO - gmx_mmpbsa average score: -80.775
+2023-04-03 11:14:49 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-03 11:14:50 - INFO - Time elapsed during B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT's 201 frames scoring: 2834.470491886139
+2023-04-03 11:14:50 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT
+2023-04-03 11:14:50 - INFO - Splitting NPT trajectory in frames.
+2023-04-03 11:17:41 - INFO - bluues average score: -499.042
+2023-04-03 11:17:43 - INFO - evoef2 average score: -70.349
+2023-04-03 11:18:05 - INFO - piepisa average score: -0.270
+2023-04-03 12:01:49 - INFO - gmx_mmpbsa average score: -58.341
+2023-04-03 12:01:49 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-03 12:01:50 - INFO - Time elapsed during B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT's 201 frames scoring: 2819.9413044452667
+2023-04-03 12:01:50 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT
+2023-04-03 12:01:50 - INFO - Splitting NPT trajectory in frames.
+2023-04-03 12:04:39 - INFO - bluues average score: -550.944
+2023-04-03 12:04:42 - INFO - evoef2 average score: -80.062
+2023-04-03 12:05:03 - INFO - piepisa average score: -0.402
+2023-04-03 12:48:50 - INFO - gmx_mmpbsa average score: -81.653
+2023-04-03 12:48:50 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-03 12:48:51 - INFO - Time elapsed during B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT's 201 frames scoring: 2821.1387841701508
+2023-04-03 12:48:51 - INFO - Scoring NPT run from iteration: B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT
+2023-04-03 12:48:51 - INFO - Splitting NPT trajectory in frames.
+2023-04-03 12:51:41 - INFO - bluues average score: -530.021
+2023-04-03 12:51:44 - INFO - evoef2 average score: -72.924
+2023-04-03 12:52:05 - INFO - piepisa average score: -0.263
+2023-04-03 13:36:02 - INFO - gmx_mmpbsa average score: -70.244
+2023-04-03 13:36:02 - INFO - Removing PDB, PSF, PQR frames and auxiliary scoring files. Set `--debug` to skip this.
+2023-04-03 13:36:02 - INFO - Time elapsed during B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT's 201 frames scoring: 2831.1866643428802
+2023-04-03 13:36:02 - INFO - Pruning epoch 5.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 1 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHTRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHIRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 2 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 3 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 4 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT vs. 4-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT vs. 4-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Scoring functions: {'piepisa', 'bluues', 'evoef2', 'gmx_mmpbsa'}
+2023-04-03 13:36:02 - INFO - 5-B_LGEENTI-B_YGSSYPA-B_AKIRNQIHWRGGKSDSPT vs. 4-B_LGEENTI-B_YNSSYPA-B_AKIRNQIHGRGGKSDSPT improves on 0 of 4 scoring functions.
+2023-04-03 13:36:02 - INFO - Successful epoch after mutating resSeqs: {107} .
+2023-04-03 13:36:02 - INFO - Top iterations: 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT
+2023-04-03 13:36:02 - INFO - Initializing new epoch 6 (1 on this run).
+2023-04-03 13:36:05 - INFO - Generating mutations with: Single Point Mutation from 4 amino acid groups and interface detection with a probe radius of 1.4.
+resSeq at the interface: {1, 3, 4, 5, 23, 24, 25, 26, 27, 28, 29, 30, 53, 54, 55, 57, 75, 76, 77, 78, 79, 103, 104, 105, 106, 107, 108, 118}.
+'mutataing_resSeq': [[27, 28, 29, 30, 31, 32, 33], [53, 54, 55, 56, 57, 58, 59], [99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]].
+excluded resSeq: {102, 57, 107, 28}.
+'mutataing_resSeq' that may be mutated: [27, 29, 30, 53, 54, 55, 103, 104, 105, 106, 108].
+2023-04-03 13:36:05 - INFO - New mutation: Mutation(chainID='B', resSeq=106, old_aa='H', new_aa='D', chainID_idx=2, resSeq_idx=7) on Epoch-Iteration: 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQIDRRGGKSDSPT
+2023-04-03 13:36:32 - INFO - Removed 9 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-03 13:36:32 - INFO - Adding 9 water molecules, and another 0 that will be replaced by ions later.
+2023-04-03 13:37:25 - INFO - New mutation: Mutation(chainID='B', resSeq=106, old_aa='H', new_aa='Y', chainID_idx=2, resSeq_idx=7) on Epoch-Iteration: 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQIYRRGGKSDSPT
+2023-04-03 13:37:51 - INFO - Removed 12 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-03 13:37:51 - INFO - Adding 12 water molecules, and another 0 that will be replaced by ions later.
+2023-04-03 13:38:44 - INFO - New mutation: Mutation(chainID='B', resSeq=106, old_aa='H', new_aa='Q', chainID_idx=2, resSeq_idx=7) on Epoch-Iteration: 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQIQRRGGKSDSPT
+2023-04-03 13:39:10 - INFO - Removed 10 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-03 13:39:10 - INFO - Adding 10 water molecules, and another 0 that will be replaced by ions later.
+2023-04-03 13:40:04 - INFO - New mutation: Mutation(chainID='B', resSeq=106, old_aa='H', new_aa='L', chainID_idx=2, resSeq_idx=7) on Epoch-Iteration: 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQILRRGGKSDSPT
+2023-04-03 13:40:30 - INFO - Removed 8 water molecules within 3A from the mutated residue. Will replace them later.
+2023-04-03 13:40:30 - INFO - Adding 8 water molecules, and another 0 that will be replaced by ions later.
+2023-04-03 13:41:23 - INFO - Running epoch 6 (1 on this run).
+2023-04-03 13:41:23 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIDRRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-03 13:41:23 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIYRRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-03 13:41:23 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIQRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-03 13:41:23 - INFO - Queuing MIN of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQILRRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-03 13:42:47 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQILRRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-03 13:43:02 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIYRRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-03 13:43:10 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIQRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-03 13:43:31 - INFO - Queuing NVT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIDRRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-03 14:05:16 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIDRRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-03 14:05:16 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIYRRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-03 14:05:16 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIQRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-03 14:05:16 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQILRRGGKSDSPT to GPU 3 and pinoffset: 96.
+2023-04-04 00:51:22 - INFO - -----------------------------
+2023-04-04 00:51:22 - INFO - Setting up work project.
+2023-04-04 00:51:54 - INFO - Previous epoch 5 top iterations: 5-B_LGEENTI-B_YFSSYPA-B_AKIRNQIHRRGGKSDSPT
+2023-04-04 00:51:57 - INFO - 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQIDRRGGKSDSPT didn't finish its NPT MD.
+2023-04-04 00:52:05 - INFO - 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQIYRRGGKSDSPT didn't finish its NPT MD.
+2023-04-04 00:52:13 - INFO - 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQIQRRGGKSDSPT didn't finish its NPT MD.
+2023-04-04 00:52:20 - INFO - 6-B_LGEENTI-B_YFSSYPA-B_AKIRNQILRRGGKSDSPT didn't finish its NPT MD.
+2023-04-04 00:52:26 - INFO - Launching.
+2023-04-04 00:52:26 - INFO - Running epoch 6 (0 on this run).
+2023-04-04 00:52:26 - INFO - Skipping minimization and NVT run of epoch 6
+2023-04-04 00:52:26 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIDRRGGKSDSPT to GPU 0 and pinoffset: 0.
+2023-04-04 00:52:26 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIYRRGGKSDSPT to GPU 1 and pinoffset: 32.
+2023-04-04 00:52:26 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQIQRRGGKSDSPT to GPU 2 and pinoffset: 64.
+2023-04-04 00:52:26 - INFO - Queuing NPT of the iteration B_LGEENTI-B_YFSSYPA-B_AKIRNQILRRGGKSDSPT to GPU 3 and pinoffset: 96.
