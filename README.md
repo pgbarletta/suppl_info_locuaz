@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/666333822.svg)](https://zenodo.org/doi/10.5281/zenodo.10937350)
+
+
 LOCUAZ: in-silico platform for antibody fragment optimization
 
 German P. Barletta ,1,2∗ Rika Tandiana ,1 Miguel Soler ,1,3 Sara Fortuna 1,2,∗
